@@ -1,0 +1,38 @@
+
+.today {
+    background-color: white !important;
+    max-width: 100px;
+}
+
+.today :nth-child(1) {
+    width: 100%;
+    height: 100%;
+}
+
+th[scope="col"]:not(.today) {
+    background-color: rgb(195, 207, 217);
+    text-align: left;
+    padding: var(--lumo-space-xs);
+    padding-left: var(--lumo-space-m);
+}
+
+th[scope="row"], td:not(.today) {
+    background-color: rgb(223, 230, 237);
+    text-align: left;
+    padding: var(--lumo-space-xs);
+    padding-left: var(--lumo-space-m);
+    max-width: 200px;
+}
+
+table, th, td {
+    border: 2px solid rgb(157, 173, 186);
+    border-collapse: collapse;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+h3 {
+    margin: 0;
+}

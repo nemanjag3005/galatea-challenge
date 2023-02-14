@@ -1,0 +1,23 @@
+.app-bar {
+  display: flex;
+  align-items: center;
+  padding-right: var(--lumo-space-m);
+  width: 100%;
+  height: var(--lumo-size-xl);
+  box-sizing: border-box;
+  background-color: var(--lumo-base-color);
+  border-bottom: 1px solid var(--lumo-contrast-10pct);
+}
+.app-bar__drawer-toggle {
+  color: var(--lumo-secondary-text-color);
+}
+.app-bar__title {
+  margin: 0;
+  font-size: var(--lumo-font-size-l);
+  font-weight: 600;
+}
+.app-bar__user-menu {
+  margin-left: auto;
+}
+
+/*# sourceMappingURL=app-bar.css.map */

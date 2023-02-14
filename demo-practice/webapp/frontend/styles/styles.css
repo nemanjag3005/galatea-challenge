@@ -1,0 +1,179 @@
+:root {
+  --app-bar-height: var(--lumo-size-xl);
+
+  --navi-drawer-width: calc(var(--lumo-size-m) * 7);
+  --navi-drawer-rail-width: calc(var(--lumo-size-m) * 1.75);
+  --navi-item-indentation: calc(var(--lumo-icon-size-s) + var(--lumo-space-l));
+
+  --details-drawer-width: calc(var(--lumo-size-m) * 11);
+
+  --transition-duration-s: 160ms;
+  --transition-duration-m: 240ms;
+  --transition-duration-l: 320ms;
+
+  /* Responsive sizing and spacing */
+  --lumo-border-radius: 0.5em;
+  --lumo-primary-text-color: rgb(70, 183, 200);
+  --lumo-primary-color-50pct: rgba(70, 183, 200, 0.5);
+  --lumo-primary-color-10pct: rgba(70, 183, 200, 0.1);
+  --lumo-primary-color: hsl(188, 54%, 53%);
+  --lumo-shade-5pct: rgba(26, 26, 26, 0.05);
+  --lumo-shade-10pct: rgba(26, 26, 26, 0.1);
+  --lumo-shade-20pct: rgba(26, 26, 26, 0.2);
+  --lumo-shade-30pct: rgba(26, 26, 26, 0.3);
+  --lumo-shade-40pct: rgba(26, 26, 26, 0.4);
+  --lumo-shade-50pct: rgba(26, 26, 26, 0.5);
+  --lumo-shade-60pct: rgba(26, 26, 26, 0.6);
+  --lumo-shade-70pct: rgba(26, 26, 26, 0.7);
+  --lumo-shade-80pct: rgba(26, 26, 26, 0.8);
+  --lumo-shade-90pct: rgba(26, 26, 26, 0.9);
+  --lumo-error-text-color: rgb(231, 24, 24);
+  --lumo-error-color-50pct: rgba(231, 24, 24, 0.5);
+  --lumo-error-color-10pct: rgba(231, 24, 24, 0.1);
+  --lumo-success-text-color: rgb(254, 126, 52);
+  --lumo-success-color-50pct: rgba(254, 126, 52, 0.5);
+  --lumo-success-color-10pct: rgba(254, 126, 52, 0.1);
+  --lumo-shade: hsl(0, 0%, 10%);
+  --lumo-error-color: hsl(0, 81%, 50%);
+  --lumo-success-color: hsl(22, 99%, 60%);
+  --lumo-success-contrast-color: hsl(159, 29%, 10%);
+}
+
+[theme~="dark"] {
+  --lumo-shade-5pct: rgba(26, 26, 26, 0.05);
+  --lumo-shade-10pct: rgba(26, 26, 26, 0.1);
+  --lumo-shade-20pct: rgba(26, 26, 26, 0.2);
+  --lumo-shade-30pct: rgba(26, 26, 26, 0.3);
+  --lumo-shade-40pct: rgba(26, 26, 26, 0.4);
+  --lumo-shade-50pct: rgba(26, 26, 26, 0.5);
+  --lumo-shade-60pct: rgba(26, 26, 26, 0.6);
+  --lumo-shade-70pct: rgba(26, 26, 26, 0.7);
+  --lumo-shade-80pct: rgba(26, 26, 26, 0.8);
+  --lumo-shade-90pct: rgba(26, 26, 26, 0.9);
+  --lumo-primary-text-color: rgb(70, 183, 200);
+  --lumo-primary-color-50pct: rgba(70, 183, 200, 0.5);
+  --lumo-primary-color-10pct: rgba(70, 183, 200, 0.1);
+  --lumo-error-text-color: rgb(231, 24, 24);
+  --lumo-error-color-50pct: rgba(231, 24, 24, 0.5);
+  --lumo-error-color-10pct: rgba(231, 24, 24, 0.1);
+  --lumo-success-text-color: rgb(254, 126, 52);
+  --lumo-success-color-50pct: rgba(254, 126, 52, 0.5);
+  --lumo-success-color-10pct: rgba(254, 126, 52, 0.1);
+  --lumo-shade: hsl(0, 0%, 10%);
+  --lumo-primary-color: hsl(188, 54%, 53%);
+  --lumo-error-color: hsl(0, 81%, 50%);
+  --lumo-success-color: hsl(22, 99%, 60%);
+  --lumo-success-contrast-color: hsl(159, 29%, 10%);
+}
+
+@media (max-width: 479px) {
+  :root {
+    --lumo-space-r-x: 0;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  :root {
+    --lumo-space-r-x: var(--lumo-space-m);
+  }
+}
+
+@media (max-width: 1023px) {
+  :root {
+    --lumo-space-r-m: var(--lumo-space-s);
+    --lumo-space-r-l: var(--lumo-space-m);
+    --lumo-space-wide-r-m: var(--lumo-space-wide-s);
+    --lumo-space-wide-r-l: var(--lumo-space-wide-m);
+  }
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.root {
+  background-color: var(--lumo-contrast-5pct);
+}
+
+.app-header-outer,
+.app-footer-outer {
+  z-index: 3;
+}
+
+vaadin-grid-cell-content {
+  text-overflow: ellipsis;
+}
+
+vaadin-text-field {
+  align-self: auto;
+}
+
+.fortress {
+  background-image: url("images/merchant-portal-background.svg");
+}
+
+.loginPanel {
+  background-color: var(--lumo-base-color);
+  position: absolute;
+  width: 320px;
+  height: 430px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.centered {
+    text-align:center;
+}
+
+.dark-background {
+    font-weight: 600;
+    color: #FFFFE7;
+    background-color: #2F5597;
+  }
+
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
+
+.green-background {
+  background-color: green;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.vaadin-menu-item > a.menu-item-anchor {
+  color:inherit;
+  text-decoration:none;
+}
+
+.root__column {
+  z-index: 1;
+}
+
+.tankinventory-footer-font {
+  font-weight: 600;
+  font-weight: bold;
+}
+
+[part~="cell"].error {
+  color: white;
+  background: #DD4B39;
+}
+
+[part~="cell"].warning {
+  color: white;
+  background: #F29D12;
+}

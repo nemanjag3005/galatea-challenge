@@ -1,0 +1,56 @@
+@media (max-width: 479px) {
+  :host([theme~="mobile"]) #header {
+    display: none;
+  }
+
+  :host([theme~="mobile"]:not([theme~="no-border"])) {
+    border: none;
+  }
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+:host(.dark-background-footer) tfoot td {
+	background-color: #808080;
+	color: #FFFFE7;
+	font-weight: 600;
+	display : flex;
+  }
+
+
+:host(.dark-background-footer) thead th {
+    font-weight: 600;
+    color: #FFFFE7;
+    background-color: #2F5597;
+    text-align: center;
+    white-space: normal;
+  }
+
+  :host(.dark-background-footer) thead th slot {
+    font-size: var(--lumo-font-size-m);
+  }
+
+:host([class='dark-background-footer']) tbody tr td:not([first-column]) {
+    text-align: center;
+}
+
+:host([theme~="feature-grid"]) [part="row"]:last-child [part~="header-cell"] {
+    background: rgb(50, 70, 36);
+    color: white;
+}
+
+[part~="cell"].error {
+    color: white;
+    background: #DD4B39;
+}
+
+[part~="cell"].warning {
+    color: white;
+    background: #F29D12;
+}

@@ -1,0 +1,48 @@
+.contact-edit-form-layout{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+    "contact-edit-first-name contact-edit-image-upload"
+    "contact-edit-last-name contact-edit-image-upload"
+    "contact-edit-title contact-edit-image-upload"
+    "contact-edit-company contact-edit-image-upload"
+    "contact-edit-email contact-edit-image-upload"
+    "contact-edit-phone-area contact-edit-cellphone-area"
+    ;
+    grid-column-gap: 20px;
+}
+
+.contact-edit-image-upload{
+    grid-area: contact-edit-image-upload;
+    border: 1px dashed var(--lumo-contrast-20pct);
+    border-radius: var(--lumo-border-radius-l);
+    justify-content: space-between;
+}
+
+.contact-edit-first-name{
+    grid-area: contact-edit-first-name;
+}
+
+.contact-edit-last-name{
+    grid-area: contact-edit-last-name;
+}
+
+.contact-edit-title{
+    grid-area: contact-edit-title;
+}
+
+.contact-edit-company{
+    grid-area: contact-edit-company;
+}
+
+.contact-edit-email{
+    grid-area: contact-edit-email;
+}
+
+.contact-edit-phone-area{
+    grid-area: contact-edit-phone-area;
+}
+
+.contact-edit-cellphone-area{
+    grid-area: contact-edit-cellphone-area;
+}

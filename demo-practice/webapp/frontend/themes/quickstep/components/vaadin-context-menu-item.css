@@ -1,0 +1,6 @@
+::slotted(img) {
+  width: var(--lumo-icon-size-m);
+  height: var(--lumo-icon-size-m);
+}
+
+/*# sourceMappingURL=vaadin-context-menu-item.css.map */

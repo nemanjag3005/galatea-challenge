@@ -1,0 +1,107 @@
+1357 [main] INFO  c.v.b.d.s.DevModeStartupListener - Starting dev-mode updaters in /Users/nemanjagrujic/Desktop/demo-practice/demo-practice/webapp folder.
+1406 [main] INFO  c.v.f.s.f.s.FullDependenciesScanner - Visited 158 classes. Took 36 ms.
+1459 [main] INFO  c.v.f.s.startup.ServletDeployer - Skipping automatic servlet registration because there is already a Vaadin servlet with the name com.quickstep.misc.guice.server.GuiceVaadinServlet-16a0ee18
+1463 [ForkJoinPool.commonPool-worker-2] INFO  c.v.f.s.frontend.TaskUpdatePackages - Running `npm install` to resolve and optionally download frontend dependencies. This may take a moment, please stand by...
+1473 [main] INFO  o.a.cpr.AtmosphereFramework - Installed AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler mapped to context-path: /*
+1473 [main] INFO  o.a.cpr.AtmosphereFramework - Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler
+1496 [main] INFO  o.a.cpr.AtmosphereFramework - Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+1500 [main] INFO  org.atmosphere.util.ForkJoinPool - Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+1503 [main] INFO  o.a.cpr.AtmosphereFramework - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+1506 [main] INFO  o.a.container.JSR356AsyncSupport - JSR 356 Mapping path 
+1512 [main] INFO  o.a.cpr.AtmosphereFramework - Installing Default AtmosphereInterceptors
+1513 [main] INFO  o.a.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+1514 [main] INFO  o.a.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+1514 [main] INFO  o.a.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+1514 [main] INFO  o.a.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+1514 [main] INFO  o.a.cpr.AtmosphereFramework - Dropping Interceptor org.atmosphere.interceptor.HeartbeatInterceptor
+1515 [main] INFO  o.a.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+1515 [main] INFO  o.a.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+1516 [main] INFO  o.a.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+1516 [main] INFO  o.a.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+1516 [main] INFO  o.a.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+1516 [main] INFO  o.a.cpr.AtmosphereFramework - 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+1516 [main] INFO  o.a.cpr.AtmosphereFramework - Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+1516 [main] INFO  o.a.cpr.AtmosphereFramework - Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+1517 [main] INFO  o.a.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+1517 [main] INFO  o.a.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+1517 [main] INFO  o.a.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+1517 [main] INFO  o.a.cpr.AtmosphereFramework - Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+1517 [main] INFO  o.a.cpr.AtmosphereFramework - Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+1517 [main] INFO  o.a.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+1517 [main] INFO  o.a.cpr.AtmosphereFramework - Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+1517 [main] INFO  o.a.cpr.AtmosphereFramework - Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+1517 [main] INFO  o.a.cpr.AtmosphereFramework - Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+1518 [main] INFO  o.a.cpr.AtmosphereFramework - Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+1518 [main] INFO  o.a.cpr.AtmosphereFramework - Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+1518 [main] INFO  o.a.cpr.AtmosphereFramework - Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+1518 [main] INFO  o.a.cpr.AtmosphereFramework - Broadcaster Shared List Resources: false
+1518 [main] INFO  o.a.cpr.AtmosphereFramework - Broadcaster Polling Wait Time 100
+1518 [main] INFO  o.a.cpr.AtmosphereFramework - Shared ExecutorService supported: true
+1518 [main] INFO  o.a.cpr.AtmosphereFramework - Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+1518 [main] INFO  o.a.cpr.AtmosphereFramework - Async I/O Thread Pool Size: 200
+1518 [main] INFO  o.a.cpr.AtmosphereFramework - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+1518 [main] INFO  o.a.cpr.AtmosphereFramework - Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+1518 [main] INFO  o.a.cpr.AtmosphereFramework - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+1520 [main] INFO  o.a.cpr.AtmosphereFramework - Invoke AtmosphereInterceptor on WebSocket message true
+1520 [main] INFO  o.a.cpr.AtmosphereFramework - HttpSession supported: true
+1520 [main] INFO  o.a.cpr.AtmosphereFramework - Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+1520 [main] INFO  o.a.cpr.AtmosphereFramework - Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: jetty/10.0.12 using javax.servlet/3.0 and jsr356/WebSocket API
+1520 [main] INFO  o.a.cpr.AtmosphereFramework - Atmosphere Framework 2.7.3.slf4jvaadin4 started.
+1522 [main] INFO  o.a.cpr.AtmosphereFramework - Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+1626 [main] INFO  org.reflections.Reflections - Reflections took 82 ms to scan 1 urls, producing 99 keys and 264 values
+1735 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+1977 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2100 [main] INFO  o.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2101 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2104 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2104 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2104 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2105 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'QuickstepQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2105 [main] INFO  o.quartz.impl.StdSchedulerFactory - Quartz scheduler 'QuickstepQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2105 [main] INFO  o.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2105 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler QuickstepQuartzScheduler_$_NON_CLUSTERED started.
+2105 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.apache.onami.scheduler.InjectorJobFactory@202ae86f
+2483 [main] INFO  c.q.m.DbBootStrapper$$EnhancerByGuice$$11039924 - Generating test data
+2699 [main] INFO  c.v.f.s.DefaultDeploymentConfiguration - 
+Vaadin is running in DEVELOPMENT mode - do not use for production deployments.
+3157 [ForkJoinPool.commonPool-worker-2] INFO  c.v.f.s.frontend.TaskUpdatePackages - using '/opt/homebrew/bin/npm --no-update-notifier --no-audit --scripts-prepend-node-path=true --ignore-scripts install' for frontend package installation
+8902 [ForkJoinPool.commonPool-worker-2] INFO  c.v.f.s.frontend.TaskUpdatePackages - Frontend dependencies resolved successfully.
+9548 [ForkJoinPool.commonPool-worker-2] INFO  c.v.f.s.f.TaskCopyFrontendFiles - Copying frontend resources from jar files ...
+9573 [ForkJoinPool.commonPool-worker-2] INFO  c.v.f.s.f.TaskCopyFrontendFiles - Visited 25 resources. Took 25 ms.
+9621 [ForkJoinPool.commonPool-worker-1] INFO  c.v.b.d.AbstractDevServerRunner - Starting Vite
+10484 [ForkJoinPool.commonPool-worker-1] INFO  c.v.b.d.AbstractDevServerRunner - Running Vite to compile frontend resources. This may take a moment, please stand by...
+11138 [dev-server-output] INFO  c.v.b.d.DevServerOutputTracker - Searching themes folder '/Users/nemanjagrujic/Desktop/demo-practice/demo-practice/webapp/frontend/themes' for theme 'quickstep'
+11138 [dev-server-output] INFO  c.v.b.d.DevServerOutputTracker - no assets to handle no static assets were copied
+11141 [dev-server-output] INFO  c.v.b.d.DevServerOutputTracker - Found theme files from '/Users/nemanjagrujic/Desktop/demo-practice/demo-practice/webapp/frontend/themes'
+11512 [dev-server-output] INFO  c.v.b.d.DevServerOutputTracker - 
+11512 [dev-server-output] INFO  c.v.b.d.DevServerOutputTracker -   VITE v3.1.0  ready in 994 ms
+11512 [dev-server-output] INFO  c.v.b.d.DevServerOutputTracker - 
+11513 [ForkJoinPool.commonPool-worker-1] INFO  c.v.b.d.AbstractDevServerRunner - Started Vite. Time: 1892ms
+11513 [dev-server-output] INFO  c.v.b.d.DevServerOutputTracker -   ➜  Local:   http://127.0.0.1:60628/VAADIN/
+12362 [dev-server-output] INFO  c.v.b.d.DevServerOutputTracker - 
+12376 [dev-server-output] INFO  c.v.b.d.DevServerOutputTracker - [TypeScript] Found 0 errors. Watching for file changes.
+23964 [dev-server-output] INFO  c.v.b.d.DevServerOutputTracker - [vite] Failed to load source map for /themes/quickstep/components/vaadin-context-menu-item.css?inline.
+25441 [dev-server-output] INFO  c.v.b.d.DevServerOutputTracker - [vite] Failed to load source map for /css/layouts/main/app-bar.css?inline.
+25445 [dev-server-output] INFO  c.v.b.d.DevServerOutputTracker - [vite] Failed to load source map for /css/layouts/main/app-drawer.css?inline.
+25445 [dev-server-output] INFO  c.v.b.d.DevServerOutputTracker - [vite] Failed to load source map for /css/layouts/main/user-menu.css?inline.
+25452 [dev-server-output] INFO  c.v.b.d.DevServerOutputTracker - [vite] Failed to load source map for /css/layouts/main/main-layout.css?inline.
+205445 [qtp1954406292-17] INFO  c.q.ui.views.login.LoginView - Login attempt:demo@galateatech.com
+359528 [qtp1954406292-17] INFO  c.q.ui.views.login.LoginView - Login attempt:demo@galateatech.com
+361529 [qtp1954406292-53] INFO  c.q.ui.views.login.LoginView - Login attempt:demo@galateatech.com
+633215 [qtp1954406292-18] INFO  c.q.ui.views.login.LoginView - Login attempt:demo@galateatech.com
+636745 [qtp1954406292-20] INFO  c.q.ui.views.login.LoginView - Login attempt:demo@galateatech.com
+640203 [qtp1954406292-18] INFO  c.q.ui.views.login.LoginView - Login attempt:demo@galateatech.com
+643082 [qtp1954406292-18] INFO  c.q.ui.views.login.LoginView - Login attempt:demo@galateatech.com
+665379 [qtp1954406292-22] INFO  c.q.ui.views.login.LoginView - Login attempt:demo@galateatech.com
+670812 [qtp1954406292-22] INFO  c.q.ui.views.login.LoginView - Login attempt:demo@galateatech.com
+673475 [qtp1954406292-20] INFO  c.q.ui.views.login.LoginView - Login attempt:demo@galateatech.com
+1149304 [qtp1954406292-20] INFO  c.q.ui.views.login.LoginView - Login attempt:demo@galateatech.com
+1167555 [qtp1954406292-20] INFO  c.q.ui.views.login.LoginView - Login attempt:jezahel05@gmail.com
+1168735 [qtp1954406292-22] INFO  c.q.ui.views.login.LoginView - Login attempt:jezahel05@gmail.com

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset xmlns="http://mojo.codehaus.org/versions-maven-plugin/rule/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" comparisonMethod="maven" xsi:schemaLocation="http://mojo.codehaus.org/versions-maven-plugin/rule/2.0.0 http://mojo.codehaus.org/versions-maven-plugin/xsd/rule-2.0.0.xsd">
+    <ignoreVersions>
+        <!-- Ignore Alpha's, Beta's, release candidates and milestones -->
+        <ignoreVersion type="regex">(?i).*[-.].*(?:Alpha|Beta|Preview|RC|CR|M).*</ignoreVersion>
+        <ignoreVersion type="regex">(?i).*jre[6-7](?:-?\d+)?</ignoreVersion>
+    </ignoreVersions>
+    <rules>
+        <!--We have to use jetty 10 until Vaadin supports the new jakarta namespace -->
+        <rule groupId="org.eclipse.jetty" comparisonMethod="maven">
+            <ignoreVersions>
+                <ignoreVersion type="regex">11\.\d+\.\d+</ignoreVersion>
+            </ignoreVersions>
+        </rule>
+    </rules>
+</ruleset>

@@ -1,0 +1,21 @@
+.app-drawer {
+  hr {
+    margin: var(--lumo-space-s) calc(var(--lumo-space-m) * -1);
+  }
+
+  &__nav {
+    --icon-size: calc(var(--lumo-icon-size-s) - 0.5em);
+
+    width: 100%;
+
+    font-size: var(--lumo-font-size-s);
+    font-weight: 600;
+
+    vaadin-icon {
+      margin-right: var(--lumo-space-m);
+
+      width: var(--icon-size);
+      height: var(--icon-size);
+    }
+  }
+}
